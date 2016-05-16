@@ -1,81 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <title>Sade's Resume</title>
-
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <script src="script.js"></script>
+  <meta charset="utf-8" />
+  <title>Sade's Resume</title>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </head>
-
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-                <a class="navbar-brand" href="#">Sade Smith</a>
-            </div>
+        <a class="navbar-brand" href="#">Sade Smith</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <main class="container">
+    <section id="about">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h1 class="text-center">Sade Smith</h1></div>
+          <div class="col-xs-12 col-md-6">
+            <p>Hey there world! How are you doing today! I'm awesome~~~ Hire me~~~</p>
+          </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <main>
-        <section id="about">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <h1 class="text-center">Sade Smith</h1></div>
-                <div class="col-xs-12 col-md-6">
-                    <p>Hey there world! How are you doing today! I'm awesome~~~ Hire me~~~</p>
-                </div>
-            </div>
-        </section>
-        <section id="experience">
-            <div id="positions"></div>
-        </section>
-        <section id="skills">
-            <div class="panel panel-primary">
-                <div class="panel-heading">Skills</div>
-                <div class="panel-body">
-                    <ul id="skills-list">
-
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="education"></section>
+      </section>
+      <section id="experience">
+        <div id="positions"></div>
+      </section>
+      <section id="skills">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Skills</div>
+          <div class="panel-body">
+            <ul id="skills-list">
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="education"></section>
     </main>
+
     <footer>
     </footer>
-</body>
-
-</html>
+  </body>
+  </html>

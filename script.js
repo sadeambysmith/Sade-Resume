@@ -26,7 +26,7 @@ var experience = [{
 
 var positionsHTML = "";
 for (let i = 0; i < experience.length; i++) {
-    positionsHTML += `<div class="panel panel-default">
+    positionsHTML += `<div class="panel panel-info">
                 <div class="panel-heading">${experience[i].position}, ${experience[i].employer}</div>
                 <div class="panel-body">
                   <p>${experience[i].location} ${experience[i].start}-${experience[i].end}</p>
